@@ -1,0 +1,38 @@
+{
+  "name": "@piste-icons/svg",
+  "description": "SVGs for ski trail difficulty symbols",
+  "version": "0.0.0-development",
+  "author": "Kirk Eaton <contact@kirkeaton.ca>",
+  "bugs": {
+    "url": "https://github.com/kirkeaton/piste-icons-svg/issues"
+  },
+  "devDependencies": {
+    "semantic-release": "20.1.0",
+    "svgo": "3.0.2"
+  },
+  "files": [
+    "*.svg"
+  ],
+  "homepage": "https://github.com/kirkeaton/piste-icons-svg#readme",
+  "keywords": [
+    "piste",
+    "ski",
+    "trail",
+    "difficulty",
+    "icons",
+    "svg"
+  ],
+  "license": "BSD-3-Clause",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkeaton/piste-icons-svg.git"
+  },
+  "scripts": {
+    "build": "svgo --quiet ."
+  }
+}
