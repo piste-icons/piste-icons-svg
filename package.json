@@ -1,0 +1,56 @@
+{
+  "name": "@piste-icons/react",
+  "description": "React components for ski trail difficulty symbols",
+  "version": "0.0.0-development",
+  "author": "Kirk Eaton <contact@kirkeaton.ca>",
+  "bugs": {
+    "url": "https://github.com/kirkeaton/piste-icons-react/issues"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.26",
+    "husky": "8.0.2",
+    "lint-staged": "13.1.0",
+    "prettier": "2.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "semantic-release": "19.0.5",
+    "typescript": "4.9.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kirkeaton/piste-icons-react#readme",
+  "license": "BSD-3-Clause",
+  "lint-staged": {
+    "*.{json,md,ts,tsx}": "prettier --write"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkeaton/piste-icons-react.git",
+    "directory": "react"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepare": "husky install"
+  },
+  "types": "./dist/index.d.ts"
+}
