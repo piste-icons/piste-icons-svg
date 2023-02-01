@@ -23,6 +23,9 @@
     "svg"
   ],
   "license": "BSD-3-Clause",
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "main"
