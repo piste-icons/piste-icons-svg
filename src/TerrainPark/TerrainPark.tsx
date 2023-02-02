@@ -1,24 +1,19 @@
-import 'react';
-
-import { ColorExtract, COLORS, Size } from '../constants';
+import { ColorExtract, COLORS } from '../constants';
 
 export interface TerrainParkProps {
   color: ColorExtract<'orange'>;
-  size: Size;
+  size: number;
 }
 
-const TerrainPark = ({
-  color,
-  size,
-}: TerrainParkProps): JSX.Element => {
+const TerrainPark = ({ color, size }: TerrainParkProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 48 48"
+      viewBox="0 0 24 24"
       width={size}
       height={size}
     >
-      <rect fill={COLORS[color]} width={44} height={20} x={4} y={14} rx={4} />
+      <rect fill={COLORS[color]} width="20" height="10" x="2" y="7" rx="5" />
     </svg>
   );
 };

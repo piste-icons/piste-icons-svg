@@ -1,21 +1,19 @@
-import 'react';
-
-import { Color, COLORS, Size } from '../constants';
+import { Color, COLORS } from '../constants';
 
 export interface DiamondProps {
-  color: Extract<Color, 'black' | 'red'>;
-  size: Size;
+  color?: Extract<Color, 'black' | 'red'>;
+  size?: number;
 }
 
-const Diamond = ({ color, size }: DiamondProps): JSX.Element => {
+const Diamond = ({ color = 'black', size = 24 }: DiamondProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 48 48"
+      viewBox="0 0 24 24"
       width={size}
       height={size}
     >
-      <path fill={COLORS[color]} d="m26 48 22-22L26 4 4 26l22 22Z" />
+      <path fill={COLORS[color]} d="m12 2 10 10-10 10L2 12z" />
     </svg>
   );
 };

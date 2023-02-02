@@ -1,21 +1,19 @@
-import 'react';
-
-import { ColorExtract, COLORS, Size } from '../constants';
+import { ColorExtract, COLORS } from '../constants';
 
 export interface SquareProps {
-  color: ColorExtract<'blue' | 'orange'>;
-  size: Size;
+  color?: ColorExtract<'blue' | 'orange'>;
+  size?: number;
 }
 
-const Square = ({ color, size }: SquareProps): JSX.Element => {
+const Square = ({ color = 'blue', size = 24 }: SquareProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 48 48"
+      viewBox="0 0 24 24"
       width={size}
       height={size}
     >
-      <path fill={COLORS[color]} d="M4 4h48v48H4z" />
+      <path fill={COLORS[color]} d="M2 2h20v20H2z" />
     </svg>
   );
 };

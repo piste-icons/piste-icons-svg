@@ -1,7 +1,3 @@
-export const SIZES = [18, 24, 36, 48] as const;
-
-export type Size = typeof SIZES[number];
-
 export const COLORS = {
   black: '#000000',
   blue: '#006699',

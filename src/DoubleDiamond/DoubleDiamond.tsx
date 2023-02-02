@@ -1,23 +1,21 @@
-import 'react';
-
-import { ColorExtract, COLORS, Size } from '../constants';
+import { ColorExtract, COLORS } from '../constants';
 
 export interface DoubleDiamondProps {
-  color: ColorExtract<'black'>;
-  size: Size;
+  color?: ColorExtract<'black'>;
+  size?: number;
 }
 
-const DoubleDiamond = ({ color, size }: DoubleDiamondProps): JSX.Element => {
+const DoubleDiamond = ({ color = 'black', size = 24 }: DoubleDiamondProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 48 48"
+      viewBox="0 0 24 24"
       width={size}
       height={size}
     >
       <path
         fill={COLORS[color]}
-        d="M12.4 44.8 23.2 24 12.4 3.2 1.6 24l10.8 20.8zM35.6 3.2 46.4 24 35.6 44.8 24.8 24 35.6 3.2z"
+        d="m7 2 5 10-5 10-5-10zm10 0 5 10-5 10-5-10z"
       />
     </svg>
   );
