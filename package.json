@@ -61,7 +61,8 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublishOnly": "yarn build"
   },
   "types": "./dist/index.d.ts"
 }
