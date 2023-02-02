@@ -36,6 +36,7 @@
     "url": "git+https://github.com/kirkeaton/piste-icons-svg.git"
   },
   "scripts": {
-    "build": "svgo --quiet ."
+    "build": "svgo --quiet .",
+    "prepublishOnly": "yarn build"
   }
 }
