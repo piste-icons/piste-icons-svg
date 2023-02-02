@@ -24,6 +24,14 @@
     "dist"
   ],
   "homepage": "https://github.com/kirkeaton/piste-icons-react#readme",
+  "keywords": [
+    "piste",
+    "ski",
+    "trail",
+    "difficulty",
+    "icons",
+    "react"
+  ],
   "license": "BSD-3-Clause",
   "lint-staged": {
     "*.{json,md,ts,tsx}": "prettier --write"
@@ -32,6 +40,9 @@
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "prettier": {
     "printWidth": 80,
@@ -46,8 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirkeaton/piste-icons-react.git",
-    "directory": "react"
+    "url": "git+https://github.com/kirkeaton/piste-icons-react.git"
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
