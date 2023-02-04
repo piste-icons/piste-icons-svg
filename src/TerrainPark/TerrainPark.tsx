@@ -1,11 +1,14 @@
 import { ColorExtract, COLORS } from '../constants';
 
 export interface TerrainParkProps {
-  color: ColorExtract<'orange'>;
-  size: number;
+  color?: ColorExtract<'orange'>;
+  size?: number;
 }
 
-const TerrainPark = ({ color, size }: TerrainParkProps): JSX.Element => {
+const TerrainPark = ({
+  color = 'orange',
+  size = 24,
+}: TerrainParkProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
