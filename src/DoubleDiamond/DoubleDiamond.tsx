@@ -5,7 +5,10 @@ export interface DoubleDiamondProps {
   size?: number;
 }
 
-const DoubleDiamond = ({ color = 'black', size = 24 }: DoubleDiamondProps): JSX.Element => {
+const DoubleDiamond = ({
+  color = 'black',
+  size = 24,
+}: DoubleDiamondProps): JSX.Element => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
