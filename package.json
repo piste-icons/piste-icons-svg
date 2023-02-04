@@ -7,6 +7,9 @@
     "url": "https://github.com/kirkeaton/piste-icons-react/issues"
   },
   "devDependencies": {
+    "@piste-icons/svg": "1.0.2",
+    "@svgr/babel-plugin-add-jsx-attribute": "6.5.1",
+    "@svgr/cli": "6.5.1",
     "@types/react": "18.0.26",
     "husky": "8.0.2",
     "lint-staged": "13.1.0",
@@ -60,7 +63,9 @@
     "url": "git+https://github.com/kirkeaton/piste-icons-react.git"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "yarn clean && yarn generate && tsc",
+    "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
+    "generate": "yarn svgr --config-file .svgrrc.js node_modules/@piste-icons/svg",
     "prepare": "husky install",
     "prepublishOnly": "yarn build"
   },

@@ -109,3 +109,7 @@ yarn.lock
 
 # MacOS files
 .DS_Store
+
+# ignore generated code
+src/*.tsx
+src/index.ts
