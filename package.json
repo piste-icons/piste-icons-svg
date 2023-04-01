@@ -9,7 +9,7 @@
   "devDependencies": {
     "@piste-icons/svg": "1.0.2",
     "@svgr/babel-plugin-add-jsx-attribute": "7.0.0",
-    "@svgr/cli": "6.5.1",
+    "@svgr/cli": "7.0.0",
     "@types/react": "18.0.28",
     "husky": "8.0.3",
     "lint-staged": "13.1.2",
