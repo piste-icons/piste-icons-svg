@@ -10,7 +10,7 @@
     "@piste-icons/svg": "1.0.2",
     "@svgr/babel-plugin-add-jsx-attribute": "7.0.0",
     "@svgr/cli": "7.0.0",
-    "@types/react": "18.0.28",
+    "@types/react": "18.0.35",
     "husky": "8.0.3",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
