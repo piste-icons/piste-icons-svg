@@ -16,7 +16,7 @@
     "prettier": "3.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "semantic-release": "21.0.7",
+    "semantic-release": "21.1.1",
     "typescript": "5.1.6"
   },
   "engines": {
