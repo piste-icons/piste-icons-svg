@@ -1,6 +1,6 @@
 module.exports = {
   expandProps: false,
-  indexTemplate: require('./templates/index-template'),
+  indexTemplate: require('./templates/index-template.cjs'),
   jsx: {
     babelConfig: {
       plugins: [
@@ -45,6 +45,6 @@ module.exports = {
   },
   outDir: './src',
   silent: true,
-  template: require('./templates/template'),
+  template: require('./templates/template.cjs'),
   typescript: true,
 };
