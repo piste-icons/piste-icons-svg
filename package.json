@@ -41,7 +41,6 @@
   "lint-staged": {
     "*.{json,md,ts,tsx}": "prettier --write"
   },
-  "main": "./dist/index.js",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
