@@ -10,7 +10,7 @@
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
     "@types/react": "18.2.51",
-    "husky": "8.0.3",
+    "husky": "9.0.10",
     "lint-staged": "15.2.1",
     "prettier": "3.2.4",
     "react": "18.2.0",
