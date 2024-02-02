@@ -67,7 +67,7 @@
     "build": "yarn clean && yarn generate && tsc",
     "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
     "generate": "yarn svgr --config-file .svgrrc.cjs node_modules/@piste-icons/svg",
-    "prepare": "husky install",
+    "prepare": "husky",
     "prepublishOnly": "yarn build"
   },
   "type": "module"
