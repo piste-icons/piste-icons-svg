@@ -60,6 +60,11 @@
       "main"
     ]
   },
+  "renovate": {
+    "extends": [
+      "github>kirkeaton/.github:renovate-config"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kirkeaton/piste-icons-react.git"
