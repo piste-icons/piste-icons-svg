@@ -9,7 +9,7 @@
   "devDependencies": {
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
-    "@types/react": "18.2.66",
+    "@types/react": "18.2.67",
     "prettier": "3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
