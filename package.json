@@ -41,7 +41,7 @@
   "lint-staged": {
     "*.{json,md,ts,tsx}": "prettier --write"
   },
-  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2",
+  "packageManager": "pnpm@8.15.5",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
