@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@kirkeaton/prettier-config':
+    specifier: 1.0.1
+    version: 1.0.1
   '@piste-icons/svg':
     specifier: 1.2.0
     version: 1.2.0
@@ -266,6 +269,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
+  /@kirkeaton/prettier-config@1.0.1:
+    resolution: {integrity: sha512-W8PQVVVYrbjbnuCBIn0VIbe09kurgjRMjsIr5W84OSDkFSk3dj4jmbtGqsufvwG+cYDAdsdrTlvkd3uwbXsekA==}
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
