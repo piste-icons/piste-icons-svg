@@ -10,8 +10,6 @@
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
     "@types/react": "18.2.66",
-    "husky": "9.0.11",
-    "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -38,9 +36,6 @@
     "react"
   ],
   "license": "BSD-3-Clause",
-  "lint-staged": {
-    "*.{json,md,ts,tsx}": "prettier --write"
-  },
   "packageManager": "pnpm@8.15.5",
   "peerDependencies": {
     "react": "^18.0.0",
@@ -68,7 +63,6 @@
     "build": "pnpm clean && pnpm generate && tsc",
     "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
     "generate": "pnpm svgr --config-file .svgrrc.cjs node_modules/@piste-icons/svg",
-    "prepare": "husky",
     "prepublishOnly": "pnpm build"
   },
   "type": "module"
