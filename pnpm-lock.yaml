@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@kirkeaton/prettier-config':
-    specifier: 1.0.1
-    version: 1.0.1
+    specifier: 1.0.2
+    version: 1.0.2
   '@kirkeaton/semantic-release-config':
     specifier: 1.0.0
     version: 1.0.0
@@ -275,8 +275,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@kirkeaton/prettier-config@1.0.1:
-    resolution: {integrity: sha512-W8PQVVVYrbjbnuCBIn0VIbe09kurgjRMjsIr5W84OSDkFSk3dj4jmbtGqsufvwG+cYDAdsdrTlvkd3uwbXsekA==}
+  /@kirkeaton/prettier-config@1.0.2:
+    resolution: {integrity: sha512-14A7UgBeVbA0Hj58mwqy3U0+sOUSjeiiIIY+lB735oGGHdUkcvfTzLYIzqIc+vbYRJKlyMXKdZtNPzu3+TfElQ==}
     dev: true
 
   /@kirkeaton/semantic-release-config@1.0.0:

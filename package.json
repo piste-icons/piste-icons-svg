@@ -7,7 +7,7 @@
     "url": "https://github.com/kirkeaton/piste-icons-react/issues"
   },
   "devDependencies": {
-    "@kirkeaton/prettier-config": "1.0.1",
+    "@kirkeaton/prettier-config": "1.0.2",
     "@kirkeaton/semantic-release-config": "1.0.0",
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
