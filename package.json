@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@kirkeaton/prettier-config": "1.0.1",
+    "@kirkeaton/semantic-release-config": "1.0.0",
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
     "@types/react": "18.2.70",
@@ -44,11 +45,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ]
   },
   "repository": {
     "type": "git",

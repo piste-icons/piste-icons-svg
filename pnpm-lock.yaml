@@ -8,6 +8,9 @@ devDependencies:
   '@kirkeaton/prettier-config':
     specifier: 1.0.1
     version: 1.0.1
+  '@kirkeaton/semantic-release-config':
+    specifier: 1.0.0
+    version: 1.0.0
   '@piste-icons/svg':
     specifier: 1.2.0
     version: 1.2.0
@@ -274,6 +277,10 @@ packages:
 
   /@kirkeaton/prettier-config@1.0.1:
     resolution: {integrity: sha512-W8PQVVVYrbjbnuCBIn0VIbe09kurgjRMjsIr5W84OSDkFSk3dj4jmbtGqsufvwG+cYDAdsdrTlvkd3uwbXsekA==}
+    dev: true
+
+  /@kirkeaton/semantic-release-config@1.0.0:
+    resolution: {integrity: sha512-u37+DVlg97hBf7luyPOTXuT/a2zH+//oqGIK8aAJU3PI6zn7f8grac2rNgGbfCuXxNsYpu01gJtjQ1bJKcqpRg==}
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
