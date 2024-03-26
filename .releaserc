@@ -1,0 +1,3 @@
+{
+  "extends": "@kirkeaton/semantic-release-config"
+}

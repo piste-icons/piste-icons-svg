@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@kirkeaton/semantic-release-config':
+    specifier: 1.0.0
+    version: 1.0.0
   semantic-release:
     specifier: 23.0.6
     version: 23.0.6
@@ -43,6 +46,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@kirkeaton/semantic-release-config@1.0.0:
+    resolution: {integrity: sha512-u37+DVlg97hBf7luyPOTXuT/a2zH+//oqGIK8aAJU3PI6zn7f8grac2rNgGbfCuXxNsYpu01gJtjQ1bJKcqpRg==}
+    dev: true
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

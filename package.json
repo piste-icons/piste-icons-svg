@@ -7,6 +7,7 @@
     "url": "https://github.com/kirkeaton/piste-icons-svg/issues"
   },
   "devDependencies": {
+    "@kirkeaton/semantic-release-config": "1.0.0",
     "semantic-release": "23.0.6",
     "svgo": "3.2.0"
   },
@@ -26,11 +27,6 @@
   "packageManager": "pnpm@8.15.5",
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ]
   },
   "repository": {
     "type": "git",
