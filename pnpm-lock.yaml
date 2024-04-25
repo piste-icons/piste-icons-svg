@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@kirkeaton/semantic-release-config':
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.0.1
+        version: 1.0.1
       semantic-release:
         specifier: 23.0.8
         version: 23.0.8
@@ -36,8 +36,8 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@kirkeaton/semantic-release-config@1.0.0':
-    resolution: {integrity: sha512-u37+DVlg97hBf7luyPOTXuT/a2zH+//oqGIK8aAJU3PI6zn7f8grac2rNgGbfCuXxNsYpu01gJtjQ1bJKcqpRg==}
+  '@kirkeaton/semantic-release-config@1.0.1':
+    resolution: {integrity: sha512-qZZ6+U5q3+E4/24JfrnqbiqlDgMm5DPsjHiEJYm4o0GL6pn1d/R/5JT0O2Sv+KKX0qLGDBYIqPc3JR9pFpzlLQ==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1479,7 +1479,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@kirkeaton/semantic-release-config@1.0.0': {}
+  '@kirkeaton/semantic-release-config@1.0.1': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
