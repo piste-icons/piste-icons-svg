@@ -24,7 +24,7 @@
     "svg"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@9.8.0",
+  "packageManager": "pnpm@9.9.0",
   "publishConfig": {
     "access": "public"
   },
