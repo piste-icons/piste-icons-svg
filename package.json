@@ -11,7 +11,7 @@
     "@kirkeaton/semantic-release-config": "1.0.1",
     "@piste-icons/svg": "1.2.0",
     "@svgr/cli": "8.1.0",
-    "@types/react": "18.3.8",
+    "@types/react": "18.3.9",
     "prettier": "3.3.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
