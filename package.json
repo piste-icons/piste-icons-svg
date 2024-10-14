@@ -34,6 +34,6 @@
   },
   "scripts": {
     "build": "svgo --quiet .",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "pnpm build"
   }
 }
