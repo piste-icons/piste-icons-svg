@@ -1,7 +1,7 @@
 {
   "name": "@piste-icons/svg",
-  "description": "SVGs for ski trail difficulty symbols",
   "version": "0.0.0-development",
+  "description": "SVGs for ski trail difficulty symbols",
   "author": "Kirk Eaton <contact@kirkeaton.ca>",
   "bugs": {
     "url": "https://github.com/kirkeaton/piste-icons-svg/issues"
