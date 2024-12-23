@@ -1,6 +1,6 @@
 # piste-icons-svg
 
-> SVGs for ski trail difficulty symbols
+SVGs for ski trail difficulty symbols
 
 ## Install
 
