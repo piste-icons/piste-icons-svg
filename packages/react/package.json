@@ -1,0 +1,56 @@
+{
+  "name": "@piste-icons/react",
+  "version": "0.0.0-development",
+  "description": "React components for ski trail difficulty symbols",
+  "author": "Kirk Eaton <contact@kirkeaton.ca>",
+  "bugs": {
+    "url": "https://github.com/kirkeaton/piste-icons-react/issues"
+  },
+  "devDependencies": {
+    "@piste-icons/svg": "workspace:^",
+    "@svgr/cli": "8.1.0",
+    "@types/react": "19.0.8",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kirkeaton/piste-icons-react#readme",
+  "keywords": [
+    "piste",
+    "ski",
+    "trail",
+    "difficulty",
+    "icons",
+    "react"
+  ],
+  "license": "BSD-3-Clause",
+  "packageManager": "pnpm@9.15.4",
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkeaton/piste-icons-react.git"
+  },
+  "scripts": {
+    "build": "pnpm clean && pnpm generate && tsc",
+    "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
+    "generate": "pnpm svgr --config-file .svgrrc.cjs node_modules/@piste-icons/svg",
+    "prepublishOnly": "pnpm build"
+  },
+  "type": "module"
+}
