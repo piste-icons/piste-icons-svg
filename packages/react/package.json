@@ -1,6 +1,6 @@
 {
   "name": "@piste-icons/react",
-  "version": "0.0.0-development",
+  "version": "1.4.0",
   "description": "React components for ski trail difficulty symbols",
   "author": "Kirk Eaton <contact@kirkeaton.ca>",
   "bugs": {
