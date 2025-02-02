@@ -10,5 +10,8 @@
   "license": "BSD-3-Clause",
   "packageManager": "pnpm@9.15.4",
   "private": true,
+  "scripts": {
+    "lint": "pnpm prettier --check \"*.{cjs,js,json,md,ts,tsx}\""
+  },
   "type": "module"
 }

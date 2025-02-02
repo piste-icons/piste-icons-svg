@@ -3,8 +3,31 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'packages/**'
+      - '.github/workflows/main.yml'
+      - 'pnpm-lock.yaml'
+      - '!**.md'
   pull_request:
+    paths:
+      - 'packages/**'
+      - '.github/workflows/main.yml'
+      - 'pnpm-lock.yaml'
+      - '!**.md'
 jobs:
+  lint:
+    name: Check formatting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
+      - uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm install
+      - run: pnpm build
+      - run: pnpm lint
   check_formatting:
     name: Check formatting
     runs-on: ubuntu-latest
