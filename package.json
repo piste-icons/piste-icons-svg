@@ -11,6 +11,7 @@
   "packageManager": "pnpm@9.15.4",
   "private": true,
   "scripts": {
+    "build": "pnpm --filter \"./packages/*\" run build",
     "lint": "pnpm prettier --check \"*.{cjs,js,json,md,ts,tsx}\""
   },
   "type": "module"
