@@ -28,7 +28,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kirkeaton/piste-icons-svg.git"
+    "url": "git+https://github.com/kirkeaton/piste-icons.git",
+    "directory": "packages/svg"
   },
   "scripts": {
     "build": "svgo --quiet .",
