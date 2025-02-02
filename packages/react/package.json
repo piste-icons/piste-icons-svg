@@ -51,6 +51,7 @@
     "build": "pnpm clean && pnpm generate && tsc",
     "clean": "find src -type f ! -name 'constants.ts' -exec rm {} \\; && rm -rf dist",
     "generate": "pnpm svgr --config-file .svgrrc.cjs node_modules/@piste-icons/svg",
+    "lint": "pnpm prettier --check \"*.{cjs,json,md,ts,tsx}\"",
     "prepublishOnly": "pnpm build"
   },
   "type": "module"

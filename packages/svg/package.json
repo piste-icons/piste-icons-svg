@@ -33,6 +33,7 @@
   },
   "scripts": {
     "build": "svgo --quiet .",
+    "lint": "git diff --quiet",
     "prepublishOnly": "pnpm build"
   }
 }
