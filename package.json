@@ -36,5 +36,6 @@
   "scripts": {
     "build": "svgo --quiet .",
     "prepublishOnly": "pnpm build"
-  }
+  },
+  "type": "commonjs"
 }
