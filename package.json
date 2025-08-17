@@ -7,7 +7,7 @@
     "url": "https://github.com/piste-icons/piste-icons-svg/issues"
   },
   "devDependencies": {
-    "@kirkeaton/semantic-release-config": "1.0.5",
+    "@kirkeaton/semantic-release-config": "1.1.0",
     "semantic-release": "24.2.7",
     "svgo": "4.0.0"
   },
