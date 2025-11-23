@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@kirkeaton/semantic-release-config':
-        specifier: 1.1.0
-        version: 1.1.0
+        specifier: 2.0.0
+        version: 2.0.0
       semantic-release:
         specifier: 25.0.2
         version: 25.0.2
@@ -48,8 +48,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@kirkeaton/semantic-release-config@1.1.0':
-    resolution: {integrity: sha512-f0j2siS7GExVMjf9ttT3qLexMMD4GQTdjwSSGlJI4d6vmDF498rHS3VDu9hNK+FyIyL5c6g7orzdF9GUvy3G0g==}
+  '@kirkeaton/semantic-release-config@2.0.0':
+    resolution: {integrity: sha512-gOzSL1ZYYqRmmAWGs164LNBgmHaUNQFy7a4NPVwC2REBUKlXrXm+r12a3K/2fxaKOXLLKQYXv/AXpfOzcbspJQ==}
 
   '@octokit/auth-token@6.0.0':
     resolution: {integrity: sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w==}
@@ -1296,7 +1296,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@kirkeaton/semantic-release-config@1.1.0': {}
+  '@kirkeaton/semantic-release-config@2.0.0': {}
 
   '@octokit/auth-token@6.0.0': {}
 
