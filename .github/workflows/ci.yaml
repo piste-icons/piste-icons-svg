@@ -23,6 +23,6 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Check for packaging errors
-        uses: kirkeaton/action-publint@c578d30a8c954e058de4758442cd1f22f9e9464e # v2.0.3
+        uses: kirkeaton/action-publint@5395df1d504e53ae442065165310e4f5de08b2da # v2.0.4
       - name: Check SVGs for changes
         run: git diff --exit-code --quiet *.svg
