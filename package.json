@@ -7,8 +7,6 @@
     "url": "https://github.com/piste-icons/piste-icons-svg/issues"
   },
   "devDependencies": {
-    "@kirkeaton/semantic-release-config": "2.0.0",
-    "semantic-release": "25.0.2",
     "svgo": "4.0.0"
   },
   "files": [
@@ -25,7 +23,6 @@
     "svg"
   ],
   "license": "BSD-3-Clause",
-  "packageManager": "pnpm@10.26.2",
   "publishConfig": {
     "access": "public"
   },
@@ -35,7 +32,7 @@
   },
   "scripts": {
     "build": "svgo --quiet .",
-    "prepublishOnly": "pnpm build"
+    "prepublishOnly": "npm run build"
   },
   "type": "commonjs"
 }
