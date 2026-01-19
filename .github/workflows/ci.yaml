@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - name: Setup Node.js
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
         with:
           node-version-file: '.nvmrc'
           cache: 'npm'
@@ -21,6 +21,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Check for packaging errors
-        uses: kirkeaton/action-publint@dad44412a6834a8c77f31d33ccd3c70c31bcd280 # v2.0.6
+        uses: kirkeaton/action-publint@c055793f83e94cd58fde48f15ca56e579bd4f165 # v2.0.7
       - name: Check SVGs for changes
         run: git diff --exit-code --quiet *.svg
