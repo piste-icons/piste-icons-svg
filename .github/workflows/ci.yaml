@@ -21,6 +21,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Check for packaging errors
-        uses: kirkeaton/action-publint@8ca713359124490b91fc3156b5600e2edbe08e61 # v2.1.5
+        uses: kirkeaton/action-publint@f9f6fe7af0b7c269bed6a503c31a058b0e2b47f7 # v2.1.6
       - name: Check SVGs for changes
         run: git diff --exit-code --quiet *.svg
